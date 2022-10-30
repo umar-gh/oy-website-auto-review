@@ -15,7 +15,7 @@ jobs:
   lint:
     uses: ./.github/workflows/lint.yml
 
-    deploy: 
+  deploy: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
